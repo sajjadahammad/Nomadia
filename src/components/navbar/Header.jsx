@@ -8,8 +8,10 @@ function Header() {
   return (
     <div className='header'>
       <Navbar sticky="top" >
-        <SiYourtraveldottv size={32} style={{marginLeft:"40px"}}/>
-        <Container style={{marginLeft:"20px"}}>
+        <Navbar.Brand href="#home">
+          <SiYourtraveldottv size={32} style={{marginLeft:"40px"}}/>
+        </Navbar.Brand>
+        <Container>
           <Navbar.Brand href="#home">Nomadia</Navbar.Brand>
           <Nav className="me-auto" style={{marginLeft:"5px",paddingLeft:"10rem"}}>
             <Nav.Link href="#home" style={{marginRight:"5rem"}}>Home</Nav.Link>

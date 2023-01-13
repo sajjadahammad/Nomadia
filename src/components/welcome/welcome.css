@@ -3,7 +3,36 @@
     background-image: url('/public/places/florence.jpg');
     background-size: cover;
     padding-top: 10%;
-    padding-bottom: 30%;
-    
+    padding-bottom: 20%;
+}
+
+.catchphrase{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2vw;
+}
+
+.search {
+    font-family: 'Monserat', sans-serif;
+    text-align: center;
+    margin-left: 2vw;
+    border-radius: 20px;
+    border: none;
+    width: 35%;
+    height: 2rem;
+    outline: none;
+}
+
+.search-btn {
+    font-size:14px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #333;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width: 6em;
+    position: absolute;
+    z-index: 1;
+    margin-left: -5rem;
 }
 
