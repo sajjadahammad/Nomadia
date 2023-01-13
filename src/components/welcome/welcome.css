@@ -1,5 +1,9 @@
 .florence {
-    height: 100px;
-    width: 100px;
-    color: aqua;
+    background-color: #579BB1;
+    background-image: url('/public/places/florence.jpg');
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    
 }
+
