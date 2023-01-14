@@ -1,14 +1,32 @@
 body {
   margin: 0;
-  font-family: 'Montserrat',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: 'Montserrat', sans-serif;
-}
-
   html{
   scroll-behavior: smooth;
+}
+
+@media (min-width: 576px) {
+
+  
+  
+  @media (min-width: 768px) {
+  
+  #wrapper {width:90%;  margin: 0 auto; }
+  
+  #content {width:70%; float:left; }
+  
+  #sidebar {width:30%; float:right; }
+  
+  
+  @media (min-width: 992px) {
+
+   }
+  
+  }
+  
+  
+  @media (min-width: 1200px) {}
 }
