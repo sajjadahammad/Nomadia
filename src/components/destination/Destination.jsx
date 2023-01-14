@@ -10,27 +10,27 @@ function Destination() {
         Explore new worlds with exotic natural scene
       </h1>
       <Carousel variant="dark">
-        <Carousel.Item>
+        <Carousel.Item interval={1000}> 
           <div className="destination-card">
-            <p className="destination-p1">paris,france</p>
+            <p className="destination-p1">Paris,France</p>
             <img src="/places/paris.jpg" alt="" className="destination-image" />
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <div className="destination-card">
-            <p className="destination-p1">dubai,uae</p>
+            <p className="destination-p1">Dubai,Uae</p>
             <img src="/places/dubai.jpg" alt="" className="destination-image" />
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <div className="destination-card">
-            <p className="destination-p1">swiss alps,switzerland</p>
+            <p className="destination-p1">Swiss alps,Switzerland</p>
             <img src="/places/switzerland.jpg" alt="" className="destination-image" />
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <div className="destination-card">
-            <p className="destination-p1">machu pichu,peru</p>
+            <p className="destination-p1">Machu pichu,Peru</p>
             <img src="/places/peru.jpg" alt="" className="destination-image" />
           </div>
         </Carousel.Item>
